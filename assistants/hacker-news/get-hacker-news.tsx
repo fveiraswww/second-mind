@@ -4,8 +4,8 @@ const querySchema = z.object({
   q: z
     .string()
     .transform((val) => parseInt(val, 10))
-    .refine((val) => [5, 15, 20].includes(val), {
-      message: 'Quantity must be 5, 15, or 20',
+    .refine((val) => [5, 10, 15, 20].includes(val), {
+      message: 'Quantity must be 5, 10, 15, or 20',
     })
     .optional(),
 });

@@ -6,7 +6,7 @@ Stay in the zone and connected, all on Discord. Think of Second Mind as your dig
 
 Roadmap 🛣️
 
-- [ ]  Hacker news
+- [x]  Hacker news
 - [ ]  Relevant emails
 - [ ]  Personal cashflow
 - [ ]  Relevant Slack messages

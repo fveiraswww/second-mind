@@ -1,4 +1,4 @@
-# Assistant API
+# Second Mind
 
 Second Mind is your go-to open-source focus buddy, perfect for cutting out distractions while staying in the loop on the important stuff.
 

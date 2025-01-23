@@ -1,4 +1,4 @@
-# Second Mind
+![secondmind](https://github.com/user-attachments/assets/9f21c791-6323-44a7-a91e-c80c3b8ca9d5)
 
 Second Mind is your go-to open-source focus buddy, perfect for cutting out distractions while staying in the loop on the important stuff.
 

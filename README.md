@@ -12,4 +12,8 @@ Roadmap 🛣️
 - [ ]  Relevant Slack messages
 - [ ]  Stock
 
+Second Mind is built with a modern and scalable tech stack to ensure reliability, performance, and seamless integration:
+	•	Bun.js: Blazing-fast JavaScript runtime for handling server-side logic and API endpoints.
+	•	Zod: Schema validation for robust and type-safe request handling.
+
 [Endpoint documentation](https://berry-rifle-c8e.notion.site/Second-Mind-183a2fbfece3803bb561e4c3a7859149)

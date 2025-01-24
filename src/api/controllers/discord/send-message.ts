@@ -29,7 +29,8 @@ export async function sendMessage(req: Request) {
         'Content-Type': 'application/json',
       },
       body: JSON.stringify({
-        content: message,
+        // discord message limit
+        content: message.length > 2000 ? message.substring(0, 2000) : message,
       }),
     });
 

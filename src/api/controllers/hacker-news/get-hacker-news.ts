@@ -47,9 +47,9 @@ export async function getHackerNews(req: Request) {
           )
         );
 
-      const topFiveStories = await Promise.all(topPromises);
+      const topStories = await Promise.all(topPromises);
 
-      return topFiveStories.map((story) => ({
+      return topStories.map((story) => ({
         title: story.title,
         url: story.url,
         score: story.score,
@@ -68,6 +68,7 @@ export async function getHackerNews(req: Request) {
       headers: { 'Content-Type': 'application/json' },
     });
   } catch (error) {
+    console.error(error);
     return new Response('Internal server error', { status: 500 });
   }
 }

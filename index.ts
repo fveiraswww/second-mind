@@ -1,7 +1,8 @@
-import { routes } from './routes';
+import { routes } from './src/api';
+import { config } from './src/config';
 
 Bun.serve({
-  port: 8080,
+  port: config.port,
   fetch(req: Request) {
     const url = new URL(req.url);
 
@@ -10,6 +11,6 @@ Bun.serve({
       return handler(req);
     }
 
-    return new Response('404!', { status: 404 });
+    return new Response('404 Not Found', { status: 404 });
   },
 });
